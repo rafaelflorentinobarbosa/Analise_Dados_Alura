@@ -18,10 +18,46 @@ O repositório está organizado da seguinte forma:
 └── README.md
 ````
 
-
 - `AluraStoreBr.ipynb`: Contém todo o código-fonte da análise de dados, incluindo a instalação de bibliotecas, importação de dados, cálculos e geração de visualizações. 💻
 - `datasets/`: Pasta que armazena os arquivos CSV com os dados de vendas de cada loja. 📊
 - `README.md`: Este arquivo, que fornece uma visão geral do projeto. 📖
+
+## Instalação 🚀
+
+Para configurar e executar este projeto em sua máquina local, siga os passos abaixo:
+
+1.  **Clone o Repositório:**
+    ```bash
+    git clone https://github.com/rafaelflorentinobarbosa/Analise_Dados_Alura
+    ```
+
+2.  **Crie um Ambiente Virtual (Recomendado):**
+    ```bash
+    python -m venv venv
+    ```
+
+3.  **Ative o Ambiente Virtual:**
+    * **No Windows:**
+        ```bash
+        .\venv\Scripts\activate
+        ```
+    * **No macOS/Linux:**
+        ```bash
+        source venv/bin/activate
+        ```
+
+## Dependências 🛠️
+
+As principais bibliotecas Python necessárias para este projeto são:
+
+* `pandas`: Para manipulação e análise de dados.
+* `matplotlib`: Para criação de visualizações gráficas.
+
+Você pode instalar estas dependências usando pip:
+
+```bash
+pip install pandas matplotlib
+```
 
 ## Dados 📦
 
